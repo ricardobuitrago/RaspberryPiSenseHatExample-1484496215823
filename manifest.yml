@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: RaspberryPiSenseHatExample
+  host: RaspberryPiSenseHatExample
+  disk_quota: 1024M
+  services:
+  - RaspberryPiSenseHatExample-cloudantNoSQLDB
